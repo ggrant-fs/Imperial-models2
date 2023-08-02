@@ -1,0 +1,21 @@
+.main-img{
+    background: url('../images/malemodel2.jpg');
+    background-position:0% 12%;
+    background-size: cover;
+    background-repeat: none;
+}
+
+
+.male-img{
+    height: 18.75rem;
+    width: 100%;
+}
+
+.section-block_title{
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    vertical-align: center;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}

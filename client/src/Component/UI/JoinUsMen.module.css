@@ -1,0 +1,63 @@
+.intro-container{
+    height:320px;
+    background-image: url("../../images/malemodel6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+}
+
+.intro{
+    height:320px;
+    clip-path: polygon(60% 0%,100% 0%,100% 100%,50% 100%);
+    background-color: #312f2fc0;
+    overflow: hidden;
+}
+
+.introImg{
+    width:230px;
+    height:250px;
+}
+
+.intro-details{
+    height:300px;
+    clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
+    background-color: red;
+}
+
+.intro__description{
+    position: relative;
+    left: 60%;
+    width:300px;
+    margin-top: 50px;
+    font-family: 'Aboreto', cursive;
+    font-style:italic;
+}
+
+.intro__heading{
+    margin:0;
+    color:white;
+}
+
+.intro__txt{
+    color:white;
+    font-size: 16px;
+}
+
+.joinUs__button{
+    display: block;
+    position: relative;
+    left:70%;
+    margin-top:50px;
+    width: 100px;
+    height:30px;
+    border-radius: 5px;
+    border:none;
+    font: 15px 'Aboreto', cursive;
+    cursor: pointer;
+ }
+ 
+ .joinUs__button:active{
+    color:#ffffff;
+    background-color: #000000;
+ }
+ 

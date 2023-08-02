@@ -1,0 +1,43 @@
+.header{
+   height: 25px;
+   background-color: white;
+   position: sticky;
+   top:0;
+   left:0;
+   z-index:100;
+}
+.header__logo{
+   display: inline-block;
+}
+.header__menu__btn {
+   display: inline-block;
+   margin-bottom: 7px;
+   position: relative;
+   left:80%;
+}
+
+.title-wrapper{
+   display:inline-block;
+   margin-top: -33px;
+   margin-bottom:0px;
+   vertical-align: top;
+   position:relative;
+   left:38.5%;
+   color:#000000;
+   font-size:25px;
+   font-family: 'Wire One', sans-serif;
+}
+
+@media(max-width:660px){
+   .header{
+      height:60px;
+   }
+   .header__menu__btn{
+      left:40%;
+      margin-bottom: 9px;
+   }
+   .title-wrapper{
+      left:25.5%;
+      font-size: 38px;
+   }
+}

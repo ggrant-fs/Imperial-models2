@@ -1,0 +1,18 @@
+.triangle{
+    width:0;
+    height:0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid black;
+    display:inline-block;
+    margin-top: 3px;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+@media(max-width:660px){
+   .triangle{
+      margin-top: 20px;
+      margin-left:15px;
+   }
+}

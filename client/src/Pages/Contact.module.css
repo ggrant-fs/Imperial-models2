@@ -1,0 +1,124 @@
+.content-container{
+    margin-bottom: -5px;
+}
+
+.content{
+    width:100%;
+}
+
+.contactUs{
+    display:block;
+    width: 150px;
+    color:white;
+    margin-top: -70px;
+    margin-bottom: 40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+form{
+    display: inline-block;
+    width:400px;
+    height: 450px;
+    vertical-align: top;
+    background-image: linear-gradient(to bottom, #4d4a4a, #000000);
+    padding-top:20%;
+    font-family: 'Poiret One', cursive;
+}
+
+.label-wrapper{
+    color:#e0dddd;
+}
+
+label{
+   margin-left: 30px;
+}
+
+input {
+    margin-left:20px;
+    width: 250px;
+    color:white;
+    background-color: transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    cursor: pointer;
+}
+.content > .label-wrapper:nth-child(2){
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.content > .label-wrapper:nth-child(3){
+    margin-left:35px;
+ 
+}
+
+.content > .label-wrapper:nth-child(4){
+    margin-left:26.5px;
+    margin-top:10px;
+}
+
+.submit-btn{
+    display: block;
+    width:100px;
+    margin:25px auto;
+    padding-bottom:2px;
+    border:none;
+    font: 17px 'Poiret One', cursive;
+}
+
+.submit-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.submit-btn:active{
+    color:#e0dddd;
+    background-color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container{
+    display: inline-block;
+    width:calc(100% - 400px);
+    vertical-align: bottom;
+}
+.contact-img{
+   width: 100%;
+   height: 450px;
+   filter: grayscale(100%);
+}
+
+@media(max-width:660px){
+    .container,
+    .contact-img{
+      display: none;
+    }
+
+    .contactUs{
+        margin-top: -20px;
+    }
+
+}
+
+@media(max-width:660px){
+    form{
+        width:100%;
+    }
+
+    label{
+        font-size:18px
+    }
+
+    input{
+        width:200px;
+    }
+
+    .submit-btn{
+        width:150px;
+        height:30px;
+        margin:50px auto;
+        font-size:25px;
+    }
+}

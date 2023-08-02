@@ -1,0 +1,37 @@
+/*============= google font imports ================*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@200&family=Playfair+Display+SC&display=swap');
+
+/* ============= css.gg icon imports ================ */
+@import url('https://css.gg/menu.css');
+@import url('https://css.gg/twitter.css');
+@import url('https://css.gg/facebook.css');
+@import url('https://css.gg/instagram.css');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main{
+  font-size:1rem;
+}
+
+.gg-menu{
+  cursor: pointer;
+  color:black;
+}
+
+.header__menu__btn:active,
+.gg-menu:active{
+   color: #c6c6c6;
+}

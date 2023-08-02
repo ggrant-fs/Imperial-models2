@@ -1,0 +1,136 @@
+const db = require('./db');
+const Model = require('./../models/models');
+const { default: mongoose } = require('mongoose');
+
+const seedData = [
+    {
+        "image":"",
+        "firstName":"James",
+        "lastName":"Smith",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"John",
+        "lastName":"Garcia",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"Robert",
+        "lastName":"Miller",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"David",
+        "lastName":"Thomas",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"Paul",
+        "lastName":"Young",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"Jose",
+        "lastName":"Flores",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"Henry",
+        "lastName":"Baker",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"Bruce",
+        "lastName":"Cook",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"Carlos",
+        "lastName":"Chavez",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"Glenn",
+        "lastName":"Kim",
+        "gender":"male"
+    },
+    {
+        "image":"",
+        "firstName":"Jennifer",
+        "lastName":"Price",
+        "gender":"female"
+    },
+    {
+        "image":"",
+        "firstName":"Ruth",
+        "lastName":"Evans",
+        "gender":"female"
+    },
+    {
+        "image":"",
+        "firstName":"Deborah",
+        "lastName":"Moris",
+        "gender":"female"
+    },
+    {
+        "image":"",
+        "firstName":"Julia",
+        "lastName":"Vasquez",
+        "gender":"female"
+    },
+    {
+        "image":"",
+        "firstName":"Regina",
+        "lastName":"Romero",
+        "gender":"female"
+    },
+    {
+        "image":"",
+        "firstName":"Irma",
+        "lastName":"Schmidt",
+        "gender":"female"
+    },
+    {
+        "image":"",
+        "firstName":"Tanya",
+        "lastName":"Dixon",
+        "gender":"female"
+    },
+    {
+        "image":"",
+        "firstName":"Natasha",
+        "lastName":"Washington",
+        "gender":"female"
+    },
+    {
+        "image":"",
+        "firstName":"Sadie",
+        "lastName":"Knight",
+        "gender":"female"
+    },
+    {
+        "image":"",
+        "firstName":"Tami",
+        "lastName":"Wong",
+        "gender":"female"
+    },
+];
+
+const seedDB = async ()=>{
+    await Model.insertMany(seedData);
+    console.log('Databse has been seeded !');
+}
+
+seedDB().then(()=>{
+    mongoose.connection.close()
+    console.log('DB connection has benn closed')
+});

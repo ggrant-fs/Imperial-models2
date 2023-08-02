@@ -1,0 +1,98 @@
+
+.modal-image{
+    display:inline-block;
+    width:55%;
+    height: 350px;
+    border-radius: 10px 0 0 10px;
+    filter:grayscale(100%)
+}
+
+
+.subscriber{
+    height: 300px;
+}
+
+
+.subscriber__form{
+    display:inline-block;
+    width:45%;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 0 10px 10px 0;
+}
+
+.modal-image,
+.subscriber__form{
+    vertical-align: top;
+}
+
+.subscriber__cta{
+    width:100%;
+    height: 200px;
+    margin-top:-70px;
+}
+
+
+.subscriber__content{
+    padding-left:10%;
+    padding-right:10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font: 27px 'Kaushan Script', cursive;
+    text-align: center; 
+    color:#ffffff; 
+ } 
+
+ .subscriber__btn{
+    display: block;
+    width:110px;
+    height:35px;
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 10px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.subscriber__btn:active{
+    background-color: #b4b4b4;
+    color:white;
+    text-decoration: underline;
+    border-width:2px;
+}
+
+.subscriber-btn-container{
+    padding-top:20px;
+}
+
+
+@media(max-width:730px){
+    .modal-image,
+    .subscriber__form{
+        display:block; 
+        width:100%;
+        border-radius: 0;
+    }
+    .modal-image{
+        height: 60vh;
+        border-radius:0;
+    }
+    .subscriber__content{
+        padding-top:10%;
+        margin-top:0;
+        margin-bottom:0;
+    }
+}
+
+
+@media(max-width:730px){
+    .subscriber-btn-container{
+        padding-top:0;
+    }
+
+    .subscriber__btn{
+        margin-top:0;
+    }
+}

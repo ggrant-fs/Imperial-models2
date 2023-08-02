@@ -1,0 +1,36 @@
+.container{
+    height: 300px;
+    margin-top:.5%;
+    margin-bottom:.5%;
+}
+
+.models{
+    display:inline-block;
+    vertical-align: top;
+    height:300px;
+    width: 33%;
+}
+
+.imgtag{
+    height:300px;
+    width:100%
+}
+
+.models:nth-of-type(2){
+   background-position: 5px 50px;
+   margin-left:.5%;
+   margin-right:.5%;
+   filter:grayscale(100%)
+}
+
+.models:nth-of-type(3){
+    filter:grayscale(100%)
+}
+
+@media(max-width:630px){
+    .container,
+    .imgtag,
+    .models{
+        height: 250px;
+    }
+}

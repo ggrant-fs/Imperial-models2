@@ -1,0 +1,28 @@
+.feature-photos__container{
+    height:450px;
+    width:50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.feature-photos__img1{
+  filter:grayscale(100%);
+}
+
+.feature-photos__img1,
+.feature-photos__img2{
+  height:100%;
+  width: 100%;
+  z-index: 99;
+}
+
+/* .feature-photos__img1:hover{
+  filter:none;
+} */
+
+
+@media(max-width:450px){
+  .feature-photos__container{
+    height: 21rem;
+  }
+}
