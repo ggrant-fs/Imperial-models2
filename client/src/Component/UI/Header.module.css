@@ -1,5 +1,5 @@
 .header{
-   height: 25px;
+   height: 1.26rem;
    background-color: white;
    position: sticky;
    top:0;
@@ -11,33 +11,33 @@
 }
 .header__menu__btn {
    display: inline-block;
-   margin-bottom: 7px;
+   margin-bottom: .44rem;
    position: relative;
    left:80%;
 }
 
 .title-wrapper{
    display:inline-block;
-   margin-top: -33px;
-   margin-bottom:0px;
+   margin-top: -2.06rem;
+   margin-bottom:0rem;
    vertical-align: top;
    position:relative;
    left:38.5%;
    color:#000000;
-   font-size:25px;
+   font-size:1.56rem;
    font-family: 'Wire One', sans-serif;
 }
 
-@media(max-width:660px){
+@media(max-width:41.25rem){
    .header{
-      height:60px;
+      height:3.75rem;
    }
    .header__menu__btn{
       left:40%;
-      margin-bottom: 9px;
+      margin-bottom: 0.56rem;
    }
    .title-wrapper{
       left:25.5%;
-      font-size: 38px;
+      font-size: 2.38rem;
    }
 }
