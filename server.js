@@ -5,8 +5,9 @@ dotenv.config({path:"./config.env"});
 const path = require("node:path");
 const PORT  = process.env.PORT || 5000;
 const db = process.env.DATABASE
-const app = require('./app');
+// const app = require('./app');
 
+const app = express();
 
 if(process.env.NODE_ENV==='production'){
     app.use(express.static(`./client/build`));
@@ -17,11 +18,11 @@ if(process.env.NODE_ENV==='production'){
  }
 
 // mongoose connect 
-mongoose.connect(db,{
-    useNewUrlParser:true, 
-    useCreateIndex:true, 
-    useFindAndModify:false 
-}).then(()=> console.log('Mongo DB connection was successful'))
+// mongoose.connect(db,{
+//     useNewUrlParser:true, 
+//     useCreateIndex:true, 
+//     useFindAndModify:false 
+// }).then(()=> console.log('Mongo DB connection was successful'))
 
 app.listen(PORT,()=>{
     console.log(`Server is listening on port ${PORT}`)
