@@ -1,5 +1,5 @@
 .header{
-   height: 1.26rem;
+   height: 2.0rem;
    background-color: white;
    position: sticky;
    top:0;
@@ -18,7 +18,7 @@
 
 .title-wrapper{
    display:inline-block;
-   margin-top: -2.06rem;
+   margin-top: -1.90rem;
    margin-bottom:0rem;
    vertical-align: top;
    position:relative;
