@@ -8,7 +8,7 @@ const app = express();
 
 app.use(morgan("dev"));
 app.use(express.json());
-app.use(express.static(`${__dirname}/client/public`));
+// app.use(express.static(`${__dirname}/client/public`));
 
 
 app.use('/api/v1/models',modelRouter);
