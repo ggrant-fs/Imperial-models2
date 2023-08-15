@@ -1,5 +1,5 @@
 .intro-container{
-    height:320px;
+    height:20rem;
     background-image: url("../../images/malemodel6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,19 +7,19 @@
 }
 
 .intro{
-    height:320px;
+    height:20rem;
     clip-path: polygon(60% 0%,100% 0%,100% 100%,50% 100%);
     background-color: #312f2fc0;
     overflow: hidden;
 }
 
 .introImg{
-    width:230px;
-    height:250px;
+    width:14.38rem;
+    height:15.63rem;
 }
 
 .intro-details{
-    height:300px;
+    height:18.75rem;
     clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
     background-color: red;
 }
@@ -27,32 +27,32 @@
 .intro__description{
     position: relative;
     left: 60%;
-    width:300px;
-    margin-top: 50px;
+    width:18.75rem;
+    margin-top: 3.13rem;
     font-family: 'Aboreto', cursive;
     font-style:italic;
 }
 
 .intro__heading{
     margin:0;
-    color:white;
+    color:#ffffff;
 }
 
 .intro__txt{
-    color:white;
-    font-size: 16px;
+    color:#ffffff;
+    font-size: 1rem;
 }
 
 .joinUs__button{
     display: block;
     position: relative;
     left:70%;
-    margin-top:50px;
-    width: 100px;
-    height:30px;
-    border-radius: 5px;
+    margin-top:3.13rem;
+    width: 6.25rem;
+    height:1.88rem;
+    border-radius: 0.31rem;
     border:none;
-    font: 15px 'Aboreto', cursive;
+    font: 0.94rem 'Aboreto', cursive;
     cursor: pointer;
  }
  

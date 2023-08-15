@@ -1,5 +1,5 @@
 .joinUs{
-    height: 350px;
+    height: 21.88rem;
     background-size: cover;
     background-image: url('../../images/femalemodel17.jpg');
     background-position: 0% 45%;
@@ -18,27 +18,27 @@
 
 .joinUs__content > h1{
     display:block;
-    width:360px;
+    width:22.50rem;
     margin-top:0;
     margin-left:5%;
-    padding-top:75px;
+    padding-top:4.69rem;
     color:rgba(250, 250, 250, 0.913); 
     font-family: 'Aboreto', cursive;
     font-style: italic;
 }
-@media(max-width:650px){
+@media(max-width:43.63rem){
     .joinUs__content > h1{
-       width:300px; 
+       width:18.75rem; 
     }
 }
 .joinUs__button{
    display: block;
-   width: 100px;
-   height:30px;
+   width: 6.25rem;
+   height:1.88rem;
    margin: 10% 20%;
-   border-radius: 5px;
+   border-radius: 0.31rem;
    border:none;
-   font: 15px 'Aboreto', cursive;
+   font: 0.94rem 'Aboreto', cursive;
    cursor: pointer;
 }
 
