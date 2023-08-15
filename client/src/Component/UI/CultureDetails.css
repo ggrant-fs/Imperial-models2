@@ -10,7 +10,7 @@
 .culture__img-milan2{
     display: inline-block;
     width: 50%;
-    height: 450px;
+    height: 28.13rem;
     background: url('../../images/featuredimg2.jpg');
     background-position: 5% 15%;
     background-size:cover;
@@ -30,7 +30,7 @@
 .culture__paris-details{
     display:inline-block;
     width:50%;
-    height: 400px;
+    height: 25rem;
     text-align: center;
 }
 
@@ -42,19 +42,19 @@
     text-align: center;
     text-decoration: underline;
     font-family: 'Plaster', cursive;
-    letter-spacing: 2px;
+    letter-spacing: 0.13rem;
 
 }
 .culture__milan-paragraph1,
 .culture__milan-paragraph,
 .culture__paris-paragraph{
-    padding: 0 30px;
+    padding: 0 1.88rem;
     margin-top: 2%;
 }
 
 .culture__paris-paragraph + p{
-    padding-left: 30px;
-   padding-right: 30px; 
+    padding-left: 1.88rem;
+   padding-right: 1.88rem; 
    text-align: center;
 
 }
@@ -80,7 +80,7 @@
 .culture__img-container3{
     display:inline-block;
     width: 50%;
-    height: 450px;
+    height: 28.13rem;
     margin-top:0;
     margin-bottom: 0;
     position:relative;
@@ -95,10 +95,10 @@
     display: block;
     margin-top: 0;
     width:10%;
-    height:450px;
+    height:28.13rem;
 }
 
-@media(max-width:630px){
+@media(max-width:39.38rem){
     .culture__milan-details,
     .culture__paris-details{
      width:100%;
@@ -111,7 +111,7 @@
 }
 
 
-@media(max-width:630px){
+@media(max-width:39.38rem){
     .culture__img-container2{
         display: none;
     }
