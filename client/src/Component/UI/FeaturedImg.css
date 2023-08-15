@@ -1,5 +1,5 @@
 .feature-photos__container{
-    height:450px;
+    height:28.13rem;
     width:50%;
     display: inline-block;
     vertical-align: top;
@@ -21,7 +21,7 @@
 } */
 
 
-@media(max-width:450px){
+@media(max-width:28.13rem){
   .feature-photos__container{
     height: 21rem;
   }
