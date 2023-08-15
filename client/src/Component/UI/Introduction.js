@@ -1,18 +1,18 @@
 import { Fragment } from 'react';
 import React from 'react';
 import femaleModel12 from '../../images/femalemodel12.jpg';
-import styles from './Introduction.module.css';
+import  './Introduction.css';
 
 const Introduction = () =>{
     return (
         <Fragment>
         {/* <div className={styles.intro}> */}
-            <div className={styles.intro__container}>
-                <img src={femaleModel12} alt=' ' className={styles.intro__img}/>
+            <div className="intro__container">
+                <img src={femaleModel12} alt=' ' className="intro__img"/>
             </div>
-            <div className={styles.intro__decription}>
-                {/* <h2 className={styles.intro__title}>Introduction</h2> */}
-                <p className={styles.intro__paragraph}>
+            <div className="intro__decription">
+                {/* <h2 className={intro__title}>Introduction</h2> */}
+                <p className="intro__paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Enim praesent elementum facilisis leo vel fringilla
@@ -21,7 +21,7 @@ const Introduction = () =>{
                 orci nulla pellentesque dignissim.
                 </p>
 
-                <p className={styles.intro__paragraph}>
+                <p className="intro__paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                  Ac turpis egestas maecenas pharetra convallis posuere morbi. 
