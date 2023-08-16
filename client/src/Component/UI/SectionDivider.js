@@ -1,12 +1,12 @@
 import { Fragment } from 'react';
 import React from 'react';
-import styles from './SectionDivider.module.css';
+import  './SectionDivider.css';
 
 
 const SectionDivider = (props) =>{
     return (
         <Fragment>
-            <div className={styles['section-block']}>
+            <div className='section-block'>
               {props.children}
             </div>
         </Fragment>

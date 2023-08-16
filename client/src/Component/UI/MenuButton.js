@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import React from 'react';
-import styles from './MenuButton.module.css';
+import './MenuButton.css';
 
 
 const MenuButton = () =>{
     return (
         <Fragment>
-            <div className={styles.triangle}></div>
+            <div className="triangle"></div>
         </Fragment>
     )
 };

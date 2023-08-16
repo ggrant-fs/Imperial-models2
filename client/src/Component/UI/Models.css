@@ -4,13 +4,13 @@
     left:10%;
 }
 .img{
-    height:260px;
-    width:220px;
-    padding-right:5px;
+    height:16.25rem;
+    width:13.75rem;
+    padding-right:0.31rem;
     filter: grayscale(100%);
 }
 
-@media(max-width:660px){
+@media(max-width:41.25rem){
     .image-container{
         display:block;
         width:100%;
@@ -19,7 +19,7 @@
     .img{
         display: block;
         width:80%;
-        height:270px;
-        margin: 5px ;
+        height:16.88rem;
+        margin: 0.31rem ;
     }
 }

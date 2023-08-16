@@ -1,11 +1,11 @@
 import {Fragment} from 'react';
-import styles from './Mainimg.module.css';
+import  './Mainimg.css';
 
 const MainImg = (props) =>{
     return (
           <Fragment>
-            <div className={`${styles['default-styling']} ${styles["main-image-desktop"]} ${props.className}`}> </div>
-            <img className={`${styles["default-styling"]} ${styles["main-image-mobile"]} ${props.className}`} src={props.images} alt=""/>
+            <div className={`${['default-styling']} ${["main-image-desktop"]} ${props.className}`}> </div>
+            <img className={`${["default-styling"]} ${["main-image-mobile"]} ${props.className}`} src={props.images} alt=""/>
           </Fragment>
     )
 };

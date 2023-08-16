@@ -22,7 +22,7 @@ ul{
 }
 .nav-item{
     display: inline-block;
-    padding-left:70px;
+    padding-left:4.38rem;
     text-align: center;
     list-style: none;
 }
@@ -32,15 +32,15 @@ ul{
     color:black;
 }
 
-@media(max-width:660px){
+@media(max-width:41.25rem){
     .nav{
         height:100vh;
         width:100%;
     }
     .nav-item{
         display:block;
-        font-size: 50px;
+        font-size: 3.13rem;
         padding-left:0;
-        margin-top: 65px;
+        margin-top: 4.06rem;
     }
 }

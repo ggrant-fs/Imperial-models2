@@ -1,8 +1,8 @@
-import styles from './ReadMore.module.css';
+import './ReadMore.css';
 
 const ReadMore = (props) =>{
     return(
-            <button type='text' className={`${props.className} ${styles['readmore']}`}>Read More</button>
+            <button type='text' className={`${props.className} ${'readmore'}`}>Read More</button>
     )
 };
 
