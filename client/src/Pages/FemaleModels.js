@@ -9,7 +9,7 @@ import femImg1 from '../images/femalemodel13.jpg';
 import femImg2 from '../images/femalemodel16.jpg';
 import femImg3 from '../images/femalemodel11.jpg';
 import femImg19 from '../images/femalemodel19.jpg';
-import styles from './FemaleModels.module.css';
+import './FemaleModels.css';
 
 
 const FemaleModels = (props) =>{
@@ -57,12 +57,12 @@ useEffect(()=>{
     return (
           <Layout>
          <main>
-             <MainImg images={femImg19} className={`${styles["fem-img"]} ${styles["main-img"]}`}/>
+             <MainImg images={femImg19} className={`${"fem-img"} ${"main-img"}`}/>
              <OurModels imgs={modelImgs}/>
              <JoinUs/>
              <SectionDivider>
                <div>
-                <h3 className={styles['section-block_title']}>Our Ladies</h3>
+                <h3 className='section-block_title'>Our Ladies</h3>
               </div>
              </SectionDivider>
              <Models pics={images} />

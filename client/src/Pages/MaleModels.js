@@ -9,7 +9,7 @@ import MainImgMobile from "../images/malemodel2.jpg";
 import maleImg1 from "../images/malemodel3.jpg";
 import maleImg2 from "../images/malemodel4.jpg";
 import maleImg3 from "../images/malemodel5.jpg";
-import styles from "./MaleModels.module.css";
+import  "./MaleModels.css";
 
 const MaleModels = (props) =>{
   const [images, setImages] = useState([])
@@ -53,12 +53,12 @@ const MaleModels = (props) =>{
       return (
           <Layout>
             <main>
-            <MainImg images={MainImgMobile} className={`${styles["male-img"]} ${styles["main-img"]}`}/>
+            <MainImg images={MainImgMobile} className={`${"male-img"} ${"main-img"}`}/>
             <OurModels imgs={modelImgs}/>
             <JoinUsMen/>
             <SectionDivider>
               <div>
-                <h3 className={styles['section-block_title']}>Our Men</h3>
+                <h3 className='section-block_title'>Our Men</h3>
               </div>
             </SectionDivider>
             <Models pics={images}/>

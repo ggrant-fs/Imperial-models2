@@ -1,5 +1,5 @@
 .content-container{
-    margin-bottom: -5px;
+    margin-bottom: -0.31rem;
 }
 
 .content{
@@ -8,18 +8,18 @@
 
 .contactUs{
     display:block;
-    width: 150px;
-    color:white;
-    margin-top: -70px;
-    margin-bottom: 40px;
+    width: 9.38rem;
+    color:#ffffff;
+    margin-top: -4.38rem;
+    margin-bottom: 2.50rem;
     margin-left:auto;
     margin-right:auto;
 }
 
 form{
     display: inline-block;
-    width:400px;
-    height: 450px;
+    width:25rem;
+    height: 28.13rem;
     vertical-align: top;
     background-image: linear-gradient(to bottom, #4d4a4a, #000000);
     padding-top:20%;
@@ -31,13 +31,13 @@ form{
 }
 
 label{
-   margin-left: 30px;
+   margin-left: 1.88rem;
 }
 
 input {
-    margin-left:20px;
-    width: 250px;
-    color:white;
+    margin-left:1.25rem;
+    width: 15.63rem;
+    color:#ffffff;
     background-color: transparent;
     border-top:none;
     border-left:none;
@@ -45,27 +45,27 @@ input {
     cursor: pointer;
 }
 .content > .label-wrapper:nth-child(2){
-    margin-top: 10px;
-    margin-bottom:10px;
+    margin-top: 0.63rem;
+    margin-bottom:0.63rem;
 }
 
 .content > .label-wrapper:nth-child(3){
-    margin-left:35px;
+    margin-left:2.19rem;
  
 }
 
 .content > .label-wrapper:nth-child(4){
-    margin-left:26.5px;
-    margin-top:10px;
+    margin-left:1.66rem;
+    margin-top:0.63rem;
 }
 
 .submit-btn{
     display: block;
-    width:100px;
-    margin:25px auto;
-    padding-bottom:2px;
+    width:6.25rem;
+    margin:1.56rem auto;
+    padding-bottom:0.13rem;
     border:none;
-    font: 17px 'Poiret One', cursive;
+    font: 1.06rem 'Poiret One', cursive;
 }
 
 .submit-btn:hover{
@@ -81,44 +81,45 @@ input {
 
 .container{
     display: inline-block;
-    width:calc(100% - 400px);
-    vertical-align: bottom;
+    width:calc(100% - 25rem);
+    vertical-align: top;
 }
 .contact-img{
    width: 100%;
-   height: 450px;
+   height: 28.13rem;
    filter: grayscale(100%);
+   vertical-align: top;
 }
 
-@media(max-width:660px){
+@media(max-width:41.25rem){
     .container,
     .contact-img{
       display: none;
     }
 
     .contactUs{
-        margin-top: -20px;
+        margin-top: -1.25rem;
     }
 
 }
 
-@media(max-width:660px){
+@media(max-width:41.25rem){
     form{
         width:100%;
     }
 
     label{
-        font-size:18px
+        font-size:1.13rem;
     }
 
     input{
-        width:200px;
+        width:12.50rem;
     }
 
     .submit-btn{
-        width:150px;
-        height:30px;
-        margin:50px auto;
-        font-size:25px;
+        width:9.38rem;
+        height:1.88rem;
+        margin:3.13rem auto;
+        font-size:1.56rem;
     }
 }

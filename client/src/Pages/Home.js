@@ -5,7 +5,7 @@ import Introduction from '../Component/UI/Introduction';
 import SectionDivider from '../Component/UI/SectionDivider';
 import NewSubscriber from "../Component/Modal/NewSubscriber";
 import CultureDetails from "../Component/UI/CultureDetails";
-import styles from './Home.module.css';
+import  './Home.css';
 
 
 const Home = (props) =>{
@@ -29,13 +29,13 @@ const Home = (props) =>{
              <FeaturedImg />
              <SectionDivider>
                 <div>
-                    <h3 className={styles['section-block_title']}>The Brand</h3>
+                    <h3 className='section-block_title'>The Brand</h3>
                 </div>
              </SectionDivider>
              <Introduction />
              <SectionDivider>
                 <div>
-                    <h3 className={styles['section-block_title']}>The Culture</h3>
+                    <h3 className='section-block_title'>The Culture</h3>
                 </div>
             </SectionDivider>
            </main>

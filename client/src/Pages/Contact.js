@@ -1,5 +1,5 @@
 import {useEffect, useState, useRef} from 'react';
-import styles from './Contact.module.css';
+import  './Contact.css';
 import pic from '../images/malemodel5.jpg';
 import Layout from '../Component/UI/Layout';
 
@@ -75,12 +75,12 @@ const submitHandler = event =>{
     return (
           <Layout>
             <main>
-               <div className={styles["content-container"]}>
+               <div className="content-container">
                   <form onSubmit={submitHandler}>
-                    <h1 className={styles.contactUs}>Contact Us</h1>
-                    <div className={styles["content"]}>
-                    <div className={styles["label-wrapper"]}>
-                    <label htmlfor="first-name">First Name</label>
+                    <h1 className="contactUs">Contact Us</h1>
+                    <div className="content">
+                    <div className="label-wrapper">
+                    <label htmlFor="first-name">First Name</label>
                     <input 
                     type="text" 
                     id="first-name"
@@ -89,8 +89,8 @@ const submitHandler = event =>{
                     ref={firstNameInput}
                     />
                     </div>
-                    <div className={styles["label-wrapper"]}>
-                    <label htmlfor="last-name" >Last Name</label>
+                    <div className="label-wrapper">
+                    <label htmlFor="last-name" >Last Name</label>
                     <input 
                     type="text" 
                     id="last-name" 
@@ -99,8 +99,8 @@ const submitHandler = event =>{
                     ref={lastNameInput}
                     />
                     </div>
-                    <div className={styles["label-wrapper"]}>
-                    <label htmlfor="email">Email</label>
+                    <div className="label-wrapper">
+                    <label htmlFor="email">Email</label>
                     <input 
                     type="email" 
                     id="email"
@@ -109,7 +109,7 @@ const submitHandler = event =>{
                     ref={emailInput}
                     />
                     </div>
-                    <div className={styles["label-wrapper"]}>
+                    <div className="label-wrapper">
                     <label htmlFor='phone-number'>Phone</label>
                     <input 
                     type="tel" 
@@ -120,10 +120,10 @@ const submitHandler = event =>{
                     />
                     </div>
                     </div>
-                    <button type="submit" className={styles["submit-btn"]} onClick={postRequest}>submit</button>
+                    <button type="submit" className={["submit-btn"]} onClick={postRequest}>submit</button>
                   </form>
-                  <div className={styles.container}>
-                    <img className={styles["contact-img"]} src={pic} alt=''/>  
+                  <div className="container">
+                    <img className="contact-img" src={pic} alt=''/>  
                   </div>
                </div>
             </main>

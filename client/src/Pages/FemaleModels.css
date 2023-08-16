@@ -11,21 +11,21 @@
 }
 
 .services > img{
-  width:100px;
-  height:100px;
+  width:6.25rem;;
+  height:6.25rem;;
   border-radius: 50%;
   filter:grayscale(100%);
 }
 
 .testImage{
-  width: 200px;
-  height:200px;
+  width: 12.50rem;
+  height:12.50rem;
 }
 
 .section-block_title{
-  margin-top: 2px;
+  margin-top: 0.13rem;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   vertical-align: center;
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
