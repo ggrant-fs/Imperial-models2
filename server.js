@@ -3,7 +3,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 dotenv.config({path:"./config.env"});
 const path = require("node:path");
-// const PORT  = process.env.PORT || 5000;
+const PORT  = process.env.PORT || 5000;
 const db = process.env.DATABASE
 // const app = require('./app');
 
@@ -23,7 +23,7 @@ if(process.env.NODE_ENV==='production'){
 //     useCreateIndex:true, 
 //     useFindAndModify:false 
 // }).then(()=> console.log('Mongo DB connection was successful'))
-const PORT  = process.env.PORT || 5000;
+// const PORT  = process.env.PORT || 5000;
 app.listen(PORT,()=>{
     console.log(`Server is listening on port ${PORT}`)
 })
