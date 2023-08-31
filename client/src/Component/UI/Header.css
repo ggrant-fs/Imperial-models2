@@ -1,6 +1,6 @@
 .header{
-   height: 32px;
-   background-color: white;
+   height: 2.0rem;
+   background-color: #ffffff;
    position: sticky;
    top:0;
    left:0;
@@ -11,20 +11,20 @@
 }
 .header__menu__btn {
    display: inline-block;
-   margin-bottom: 7px;
+   margin-bottom: .44rem;
    position: relative;
    left:80%;
 }
 
 .title-wrapper{
    display:inline-block;
-   margin-top: -30px;
-   margin-bottom:0px;
+   margin-top: -1.90rem;
+   margin-bottom:0rem;
    vertical-align: top;
    position:relative;
    left:38.5%;
    color:#000000;
-   font-size:25px;
+   font-size:1.56rem;
    font-family: 'Wire One', sans-serif;
 }
 
