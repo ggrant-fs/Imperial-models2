@@ -1,9 +1,10 @@
 .intro-container{
-    height:30rem;
+    height:42rem;
     background-image: url("../../images/malemodel6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0% 15%;
+    background-position: 0% -30%;
+    margin-top: 7.2rem;
 }
 
 .intro{
