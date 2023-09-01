@@ -1,11 +1,11 @@
 .image-container{
     display:inline-block;
     position: relative;
-    left:10%;
+    left:15%;
 }
 .img{
-    height:16.25rem;
-    width:13.75rem;
+    height:25.25rem;
+    width:20.75rem;
     padding-right:0.31rem;
     filter: grayscale(100%);
 }
