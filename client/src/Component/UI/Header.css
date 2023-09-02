@@ -1,5 +1,5 @@
 .header{
-   height: 2.0rem;
+   height: 3.8rem;
    background-color: #ffffff;
    position: sticky;
    top:0;
@@ -18,13 +18,13 @@
 
 .title-wrapper{
    display:inline-block;
-   margin-top: -1.90rem;
+   margin-top: -5.20rem;
    margin-bottom:0rem;
    vertical-align: top;
    position:relative;
    left:38.5%;
    color:#000000;
-   font-size:1.56rem;
+   font-size:4rem;
    font-family: 'Wire One', sans-serif;
 }
 

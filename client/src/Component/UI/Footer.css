@@ -1,5 +1,5 @@
 .main-footer{
-    height: 12.50rem;
+    height: 15.50rem;
     background:#000000;
     bottom:0;
     left:0;
@@ -7,12 +7,12 @@
 
 .main-footer__title{
     display: inline-block;
-    width: 10.63rem;
+    width: 20.63rem;
     height: 1.88rem;
     margin-top: 1.56rem;
     padding-left:1.25rem;
-    color:white;
-    font: 2.50rem 'Wire One', sans-serif;
+    color:#ffffff;
+    font: 3.5rem 'Wire One', sans-serif;
     vertical-align: top;
     /* text-decoration: underline 1px; */
 }
@@ -29,12 +29,12 @@ ul{
 }
 .footer__item{
   display:block;
-  color:white;
+  color:#ffffff;
   padding-left: 0;
   padding-right: 0;
-  padding-top:0.94rem;
+  padding-top:1.5rem;
   text-align: left;
-  font: 0.63rem 'Julius Sans One', sans-serif;
+  font: 0.88rem 'Julius Sans One', sans-serif;
   cursor: pointer;
 }
 
