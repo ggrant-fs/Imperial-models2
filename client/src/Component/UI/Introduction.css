@@ -1,6 +1,6 @@
 .intro__img,
 .intro__decription{
-  height: 18.75rem;
+  height: 40.75rem;
   display: inline-block;
   vertical-align: middle;
 }
@@ -13,13 +13,13 @@
 
 .intro__img{
   width: 100%;
-  height:23.75rem;
+  height:40.75rem;
   margin: 0 auto;
   filter: grayscale();
 }
 .intro__decription{
  width: 35%;
- margin: 0 1.25rem 0 0.94rem;
+ margin: 14.38rem 1.25rem 0 0.94rem;
  display:inline-block;
 }
 .intro__title {
@@ -28,12 +28,12 @@
   text-align: center;
 }
 
-.intro__title > .intro__paragraph {
+/* .intro__title > .intro__paragraph {
   font-size: 0.63rem;
-}
+} */
 
 .intro__paragraph{
-  margin-top: 0;
+ font-size: 1.56rem;
 }
 
 

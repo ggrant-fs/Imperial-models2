@@ -1,5 +1,5 @@
 .culture__main-img{
-    height:40rem;
+    height:60rem;
     width: 100%;
     filter: grayscale(100%);
     vertical-align: bottom;
@@ -10,9 +10,9 @@
 .culture__img-milan2{
     display: inline-block;
     width: 50%;
-    height: 28.13rem;
+    height: 43.13rem;
     background: url('../../images/featuredimg2.jpg');
-    background-position: 5% 15%;
+    background-position: 5% 50%;
     background-size:cover;
     background-repeat: none;
     vertical-align: bottom;
@@ -36,6 +36,8 @@
 
 .culture__milan-details{
     vertical-align:top;
+    margin-top:1.25rem;
+    font-size:1.69rem;
 }
 .culture__title{
     margin: 0 auto;
@@ -60,7 +62,9 @@
 }
 
 .culture__paris-details{
-    vertical-align: bottom;
+    vertical-align: top;
+    margin-top:6.25rem;
+    font-size:1.69rem;
 }
 
 .readmore-btn{
@@ -80,12 +84,12 @@
 .culture__img-container3{
     display:inline-block;
     width: 50%;
-    height: 28.13rem;
+    height: 43.13rem;
     margin-top:0;
     margin-bottom: 0;
     position:relative;
     background: url('../../images/femalemodel9.jpg');
-    background-position: 5% 80%;
+    background-position: 5% 70%;
     background-size:cover;
     background-repeat: none;
     filter: grayscale(100%);
