@@ -14,10 +14,7 @@ const Header = (props) =>{
            <h3 className="header__title">Imperial Models</h3>
            </div>
            <div className="header__menu__btn" onClick={props.openNav}>
-           {/* <i className="gg-menu"></i> */}
-           <div className='menu__bar'></div>
-           <div className='menu__bar'></div>
-           <div className='menu__bar'></div>
+           <i className="gg-menu"></i>
            </div>
         </header>
         </Fragment>
