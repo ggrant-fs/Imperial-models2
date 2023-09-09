@@ -37,6 +37,12 @@
       left:40%;
       margin-bottom: 0.56rem;
    }
+
+   .menu__bar{
+      width:30px;
+      height:5px;
+      background-color: #000000;
+   }
    .title-wrapper{
       left:25.5%;
       font-size: 2.38rem;
