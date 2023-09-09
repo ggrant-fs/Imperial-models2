@@ -53,7 +53,7 @@ const MaleModels = (props) =>{
       return (
           <Layout>
             <main>
-            <MainImg images={MainImgMobile} className={`${"male-img"} ${"main-img"}`}/>
+            <MainImg images={MainImgMobile} className={`${"male-img"} ${"main-img-male"}`}/>
             <OurModels imgs={modelImgs}/>
             <JoinUsMen/>
             <SectionDivider>

@@ -57,7 +57,7 @@ useEffect(()=>{
     return (
           <Layout>
          <main>
-             <MainImg images={femImg19} className={`${"fem-img"} ${"main-img"}`}/>
+             <MainImg images={femImg19} className={`${"fem-img"} ${"main-img-female"}`}/>
              <OurModels imgs={modelImgs}/>
              <JoinUs/>
              <SectionDivider>
