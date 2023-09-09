@@ -29,6 +29,15 @@ main{
 .gg-menu{
   cursor: pointer;
   color:black;
+  width:1.88rem;
+}
+
+.gg-menu::before{
+  top:-.63rem;
+}
+
+.gg-menu::after{
+  top:.63rem;
 }
 
 .header__menu__btn:active,
