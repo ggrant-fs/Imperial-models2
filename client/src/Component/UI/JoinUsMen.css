@@ -28,8 +28,8 @@
     position: relative;
     left: 60%;
     width:18.75rem;
-    margin-top: 3.13rem;
-    font-family: 'Aboreto', cursive;
+    margin-top: 4.5rem;
+    font:1.44rem 'Aboreto', cursive;
     font-style:italic;
 }
 
@@ -46,13 +46,13 @@
 .joinUs__button{
     display: block;
     position: relative;
-    left:70%;
+    left:50%;
     margin-top:3.13rem;
-    width: 6.25rem;
-    height:1.88rem;
+    width: 9.25rem;
+    height:2.88rem;
     border-radius: 0.31rem;
     border:none;
-    font: 0.94rem 'Aboreto', cursive;
+    font: 1.5rem 'Aboreto', cursive;
     cursor: pointer;
  }
  
