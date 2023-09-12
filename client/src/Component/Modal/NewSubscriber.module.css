@@ -45,12 +45,12 @@
 
  .subscriber__btn{
     display: block;
-    width:110px;
-    height:35px;
+    width:200px;
+    height:50px;
     margin-top:40px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Kaushan Script', cursive;
+    font: 30px 'Kaushan Script', cursive;
     border-radius: 10px;
     border-width: 1px;
     cursor: pointer;
