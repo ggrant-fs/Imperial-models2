@@ -27,7 +27,7 @@
 .intro__description{
     position: relative;
     left: 60%;
-    width:18.75rem;
+    width:30.75rem;
     margin-top: 4.5rem;
     font:1.44rem 'Aboreto', cursive;
     font-style:italic;
@@ -46,7 +46,7 @@
 .joinUs__button{
     display: block;
     position: relative;
-    left:50%;
+    left:68%;
     margin-top:3.13rem;
     width: 9.25rem;
     height:2.88rem;
